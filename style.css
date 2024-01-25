@@ -1,0 +1,24 @@
+#title{
+    font-size: 60px;
+    color: rgb(131, 255, 6);
+    font-family: monospace;
+}
+body{
+    background-color:cornflowerblue;
+}
+hr{
+    color: brown;
+}
+#notestorage{
+    border: cornflowerblue;
+    border-width: 5px;
+    border-color: cornflowerblue;
+    border-radius: 5px;
+}
+#input{
+    font-size: 30px;
+}
+button{
+    font-size: 30px;
+    background-color: chartreuse;
+}

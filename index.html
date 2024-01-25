@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css"><script src="main.js"></script>
+    <title>Noterwrite</title>
+</head>
+<body>
+    <center>
+        <span>
+    <h1 id="title">Noterwrite</h1>
+    <img src="">
+    </span>
+    <hr><br>
+    <h2 class="color:white">This application allows you to type down notes and then remember them!</h2>
+    <input id="input" class="form-control" type="text" placeholder="type any note here">
+    <span>
+    <button id="send_btn" onclick="send1()" class="btn btn-success">Send note 1</button>
+    <button id="send_btn" onclick="send2()" class="btn btn-success">Send note 2</button>
+    <button id="send_btn" onclick="send3()" class="btn btn-success">Send note 3</button>
+    <button id="send_btn" onclick="send4()" class="btn btn-success">Send note 4</button>
+    <button id="send_btn" onclick="send5()" class="btn btn-success">Send note 5</button>
+</span>
+    <h2 class="color:white">Notes will appear below:</h2>
+    <div id="notestorage1"></div>
+    <div id="notestorage2"></div>
+    <div id="notestorage3"></div>
+    <div id="notestorage4"></div>
+    <div id="notestorage5"></div>
+    <h2>5 notes max</h2>
+    <h2>Reload page if needed</h2>
+    <button onclick="remove()">DELETE NOTES</button>
+    <h2 id="warning_note"></h2>
+</center>
+</body>
+</html>
